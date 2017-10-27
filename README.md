@@ -2,6 +2,7 @@
 
 # Compile with
 g++ -o search search.cpp `pkg-config opencv --cflags --libs`
+
 g++ -o check_on_off check_on_off.cpp `pkg-config opencv --cflags --libs`
 
 # Examples:
@@ -10,9 +11,11 @@ g++ -o check_on_off check_on_off.cpp `pkg-config opencv --cflags --libs`
 
 
 ./check_on_off origenes/00000001p.jpg
+
 Result: ON
 
 ./check_on_off origenes/00000005p.jpg
+
 Result: OFF
 
 
